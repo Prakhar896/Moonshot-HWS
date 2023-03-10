@@ -14,6 +14,8 @@
 		E287DEEF29B6373F00D02FFE /* MoonshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287DEEE29B6373F00D02FFE /* MoonshotTests.swift */; };
 		E287DEF929B6373F00D02FFE /* MoonshotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287DEF829B6373F00D02FFE /* MoonshotUITests.swift */; };
 		E287DEFB29B6373F00D02FFE /* MoonshotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287DEFA29B6373F00D02FFE /* MoonshotUITestsLaunchTests.swift */; };
+		E2DFF4B729BB379A00731409 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = E2DFF4B529BB379900731409 /* astronauts.json */; };
+		E2DFF4B829BB379A00731409 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = E2DFF4B629BB379A00731409 /* missions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		E287DEF429B6373F00D02FFE /* MoonshotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonshotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E287DEF829B6373F00D02FFE /* MoonshotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotUITests.swift; sourceTree = "<group>"; };
 		E287DEFA29B6373F00D02FFE /* MoonshotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2DFF4B529BB379900731409 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		E2DFF4B629BB379A00731409 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				E287DEDD29B6373B00D02FFE /* MoonshotApp.swift */,
 				E287DEDF29B6373B00D02FFE /* ContentView.swift */,
+				E2DFF4B529BB379900731409 /* astronauts.json */,
+				E2DFF4B629BB379A00731409 /* missions.json */,
 				E287DEE129B6373F00D02FFE /* Assets.xcassets */,
 				E287DEE329B6373F00D02FFE /* Preview Content */,
 			);
@@ -231,7 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2DFF4B729BB379A00731409 /* astronauts.json in Resources */,
 				E287DEE529B6373F00D02FFE /* Preview Assets.xcassets in Resources */,
+				E2DFF4B829BB379A00731409 /* missions.json in Resources */,
 				E287DEE229B6373F00D02FFE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
